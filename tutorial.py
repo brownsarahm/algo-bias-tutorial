@@ -121,9 +121,9 @@ def plot_ellipse(splot, mean, cov, color):
                               linewidth=2, zorder=2)
     ell.set_clip_box(splot.bbox)
     ell.set_alpha(0.5)
-    splot.add_artist(ell)
-    splot.set_xticks(())
-    splot.set_yticks(())
+    # splot.add_artist(ell)
+    # splot.set_xticks(())
+    # splot.set_yticks(())
 
 
 def plot_lda_cov(lda, splot):
