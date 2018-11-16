@@ -1,0 +1,7 @@
+# Correlation between COMPAS score and 2-year recidivism
+
+# measure with high-low score
+print(df[['two_year_recid','score_text_quant']].corr())
+
+# measure with decile_score
+print(df[['two_year_recid','decile_score']].corr())
